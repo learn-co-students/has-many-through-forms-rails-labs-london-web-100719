@@ -1,0 +1,24 @@
+categories
+  show page
+    should display all of the related posts (FAILED - 1)
+
+comments
+  creates a comment with an existing user (FAILED - 2)
+  creates a comment and a new user (FAILED - 3)
+
+Posts
+  new
+    can create a post without a new category (FAILED - 4)
+    can create a post with a previously created category (FAILED - 5)
+    can create a post with a brand new category (FAILED - 6)
+    can create a post with a brand new category and an existing category (FAILED - 7)
+  show
+    should display the title (FAILED - 8)
+    should display the content (FAILED - 9)
+    should display the categories (FAILED - 10)
+    should display all of the comments for that post (FAILED - 11)
+    should display a list of unique users who have commented on the post (FAILED - 12)
+
+users
+  show page
+    should link to all of the posts the user commented on (FAILED - 13)
